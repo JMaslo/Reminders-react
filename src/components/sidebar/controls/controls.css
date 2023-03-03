@@ -11,12 +11,22 @@ button {
     margin-left: 0.75rem;
 }
 
+.close:hover {
+    cursor: pointer;
+}
+
 .minimize {
     background-color: orange;
     border: none;
+}
+.minimize:hover {
+    cursor: pointer;
 }
 
 .maximize {
     background-color: green;
     border: none;
+}
+.maximize:hover {
+    cursor: pointer;
 }

@@ -16,4 +16,5 @@ input {
 input::placeholder {
     color: white;
     font-weight: normal;
+    font-family: 'Trebuchet MS', sans-serif;
 }

@@ -5,6 +5,7 @@ import React from 'react'
 import Controls from './components/sidebar/controls/Controls'
 import Search from './components/sidebar/search/Search'
 import Reminder from './components/reminders/newReminder/NewReminder'
+import Menu from './components/sidebar/menu/Menu'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -45,6 +46,7 @@ function App() {
         <Aside>
           <Controls />
           <Search />
+          <Menu />
         </Aside>
         <Reminder />
       </AppStyle>  

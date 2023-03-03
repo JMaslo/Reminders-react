@@ -11,3 +11,40 @@
     position: relative;
     bottom: 0.5rem;
 }
+
+.title {
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+
+    margin-left: 1.5rem;
+    display: block;
+}
+
+.todos p {
+    color: white;
+    padding: 0.625rem 0;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    flex-grow: 1;
+}
+
+.todos svg {
+    flex: none;
+    width: 2rem;
+    height: 2rem;
+    stroke-width: 1;
+
+    margin-top: 0.425rem;
+    margin-right: 0.425rem;
+
+    fill: rgb(67, 76, 90);
+}
+
+.todos li {
+    display: flex;
+    line-height: 1.25;
+}
+
+.todos svg:hover, .todos svg:active {
+    fill: rgb(232, 151, 0);
+    cursor: pointer;
+}
