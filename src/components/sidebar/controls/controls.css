@@ -1,0 +1,22 @@
+button {
+    width: 1rem;
+    height: 1rem;
+    margin: 0.75rem 0.25rem;
+    border-radius: 1rem;
+}
+
+.close {
+    background-color: red;
+    border: none;
+    margin-left: 0.75rem;
+}
+
+.minimize {
+    background-color: orange;
+    border: none;
+}
+
+.maximize {
+    background-color: green;
+    border: none;
+}

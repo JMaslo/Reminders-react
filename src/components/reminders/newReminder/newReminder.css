@@ -1,0 +1,13 @@
+.add-new {    
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    background: rgb(31, 41, 55);
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-left: 32rem;
+
+    position: relative;
+    bottom: 0.5rem;
+}
